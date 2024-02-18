@@ -1,7 +1,7 @@
 # TMS API
 _This independant application programming inferface (API) is not endorsed or supported by the company that owns TMS._
 
-This API is meant to run standalone. It has been proven successful in other forms for dozens of museums dating back to 2012 for integrations, application interfaces for data cataloging, and online collections. Please reach out directly to Jonathan (jonathan@amanita.io) for more detail.
+This API is meant to run standalone. It has been proven successful in other forms for more than a dozen museums dating back to 2012 for integrations, application interfaces for data cataloging, and online collections. Please reach out directly to Jonathan (jonathan@amanita.io) for more detail.
 
 ### Museum Constributions
 This project aims to provide a data IO interface for museums that use TMS - It can be implemented with varying resources within any size museum. Whether it's for sharing object data, planning exhibitions, or even developing teaching resources - It's flexible to fit any requirements. This project relies on the Museum Community for guidance and welcomes all contributions. 
