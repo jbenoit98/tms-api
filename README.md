@@ -13,6 +13,7 @@ This project aims to provide a data IO interface for museums that use TMS - It c
 - Web Server: [Tornado](https://www.tornadoweb.org/en/stable/)
 - Database: [SQL Server](https://www.microsoft.com/en-us/sql-server)
 - Data Validation: [pythonschema](https://python-jsonschema.readthedocs.io/en/stable/)
+- Reporting: [pyreportjasper](https://github.com/acesseonline/pyreportjasper)
 
   
 ### Security
@@ -27,6 +28,8 @@ Currently the database management system that is supported is SQL Server, howeve
 ### Data Validation
 The design is flexible enough to implement organization specific data requirements with low effort by using custom json schema validation. This will ensure that data is validated prior to loading into the database, specific to the organization's data quality standards.
 
+### Reporting
+Jasper Reports is an open source reporting tool that enables organizations to create rich data reporting. This project will use pyreportjasper for any reporting needs within the scope of this project. That includes API usage/data change history and any TMS specific reporting needs. The goal is to untie the Museum from the need to use Crystal Reports.
 
 ## Install Steps
 As we progress in development, these steps will come into focus.
